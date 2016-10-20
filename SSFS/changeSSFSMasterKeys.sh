@@ -2,7 +2,7 @@
 
 ## SAP HANA Academy
 ## Playlist: SAP HANA express edition
-## Tutorial video:
+## Tutorial video: https://www.youtube.com/watch?v=F53iPBsq6AY
 ## Sample script provided for educational purposes
 ## Info: hanaacademy@sap.com
 
