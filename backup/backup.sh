@@ -1,11 +1,17 @@
 #!/bin/bash
 
+## sample tutorial backup script
+## see https://www.youtube.com/watch?v=BIJmz-PNt-I
+
+
 # define backup prefix
 TIMESTAMP="$(date +\%F\_%H\%M)"
 BACKUP_PREFIX="SCHEDULED"
 BACKUP_PREFIX="$BACKUP_PREFIX"_"$TIMESTAMP"
 TENANT="TESTDB"
-TIME_NEEDED_FOR_BACKUP="10"
+# specify a time out for the backup to complete (in seconds)
+# use HANA studio or cockpit for an initial estimate
+TIME_NEEDED_FOR_BACKUP="60"
 
 ## execute command with user key
 # hdbuserstore -i SET backup hxehost:30013 backup_operator
