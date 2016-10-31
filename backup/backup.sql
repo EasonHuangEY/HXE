@@ -11,6 +11,6 @@ CREATE USER backup PASSWORD Initial1;
 GRANT backup_admin TO backup;
 
 -- create user backup operator
-CREATE USER backup_operator PASSWORD Q$124lsdfsdfba NO FORCE_FIRST_PASSWORD_CHANGE;
+CREATE USER backup_operator PASSWORD <enter_complex_password> NO FORCE_FIRST_PASSWORD_CHANGE;
 GRANT BACKUP OPERATOR to backup_operator;
 ALTER USER backup_operator DISABLE PASSWORD LIFETIME;
